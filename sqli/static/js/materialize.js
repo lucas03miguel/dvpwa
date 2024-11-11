@@ -7005,9 +7005,9 @@ if (jQuery) {
         name = name[0] + ELEMENT.name + name[1];
       }
 
-      P._hidden = $('<input ' + 'type=hidden ' +
+      P._hidden = $.find('<input ' + 'type=hidden ' +
 
-      // Create the name using the original input’s with a prefix and suffix.
+      // Create the name using the original input's with a prefix and suffix.
       'name="' + name + '"' + (
 
       // If the element has a value, set the hidden value as well.
